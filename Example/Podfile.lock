@@ -1,0 +1,16 @@
+PODS:
+  - CYTools (0.0.1)
+
+DEPENDENCIES:
+  - CYTools (from `../`)
+
+EXTERNAL SOURCES:
+  CYTools:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CYTools: 367c6b9b020d71249a3319cf8ada2a6aae5e09fd
+
+PODFILE CHECKSUM: f912cc592dfcb8c16abd84f09a5f6b5fa7dd6622
+
+COCOAPODS: 1.4.0

@@ -1,11 +1,5 @@
 use_frameworks!
 
 target 'CYTools_Example' do
-  pod 'CYTools', :path => '../'
-
-  target 'CYTools_Tests' do
-    inherit! :search_paths
-
-    pod 'FBSnapshotTestCase'
-  end
+    pod 'CYTools', :path => '../'
 end

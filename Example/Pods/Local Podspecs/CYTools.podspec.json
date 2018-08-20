@@ -1,0 +1,22 @@
+{
+  "name": "CYTools",
+  "version": "0.0.1",
+  "summary": "CY工具集",
+  "description": "提供常用的工具",
+  "homepage": "https://github.com/wsong/CYTools",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wsong": "835151791@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/wsong/CYTools.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CYTools/Classes/**/*"
+}
