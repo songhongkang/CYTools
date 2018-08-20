@@ -8,6 +8,6 @@
 
 @import UIKit;
 
-@interface CYViewController : UIViewController
-
-@end
+//@interface CYViewController : UIViewController
+//
+//@end

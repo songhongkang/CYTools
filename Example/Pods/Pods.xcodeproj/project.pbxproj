@@ -13,8 +13,6 @@
 		682C867735506B9C42873A1182F67C39 /* CYTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B64ECBADA7DA8BA8F8FC3C6F37A7DA6 /* CYTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A664166212A7F0700DB6537 /* CYSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A664164212A7F0700DB6537 /* CYSelector.h */; };
 		8A664167212A7F0700DB6537 /* CYSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A664165212A7F0700DB6537 /* CYSelector.m */; };
-		8A66416A212AC76F00DB6537 /* CYClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A664168212AC76F00DB6537 /* CYClass.h */; };
-		8A66416B212AC76F00DB6537 /* CYClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A664169212AC76F00DB6537 /* CYClass.m */; };
 		9A177941EF717874E8EB2E6075FC976A /* NSObject+CYToolsExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = A4F73FD292BAAD7FB00EDBDAF13A9AC8 /* NSObject+CYToolsExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B15A29565E0B763FEAE5C428583D9ED4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		B27ACC9AECEF5C741E932515E41E9953 /* Pods-CYTools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D5C84A01291A8F970BA157D457FC4A /* Pods-CYTools_Example-dummy.m */; };
@@ -50,8 +48,6 @@
 		8754BFF4CFF469FCB6D431FB774AF75E /* CYTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CYTools-dummy.m"; sourceTree = "<group>"; };
 		8A664164212A7F0700DB6537 /* CYSelector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYSelector.h; sourceTree = "<group>"; };
 		8A664165212A7F0700DB6537 /* CYSelector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYSelector.m; sourceTree = "<group>"; };
-		8A664168212AC76F00DB6537 /* CYClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYClass.h; sourceTree = "<group>"; };
-		8A664169212AC76F00DB6537 /* CYClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYClass.m; sourceTree = "<group>"; };
 		8D4EFB7D6B5618C850E25D8990AC00CC /* CYTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CYTools.modulemap; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A4D6C08EC8C45C22A756C156FC76074C /* Pods-CYTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CYTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -100,8 +96,6 @@
 		188F1EC84FEC2AD7BB00401C0E39C171 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				8A664168212AC76F00DB6537 /* CYClass.h */,
-				8A664169212AC76F00DB6537 /* CYClass.m */,
 				8A664164212A7F0700DB6537 /* CYSelector.h */,
 				8A664165212A7F0700DB6537 /* CYSelector.m */,
 			);
@@ -240,7 +234,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A66416A212AC76F00DB6537 /* CYClass.h in Headers */,
 				682C867735506B9C42873A1182F67C39 /* CYTools-umbrella.h in Headers */,
 				9A177941EF717874E8EB2E6075FC976A /* NSObject+CYToolsExtension.h in Headers */,
 				D1DAC38B479DD4F68B06C58F37922AFF /* UIView+CYToolsExtension.h in Headers */,
@@ -334,7 +327,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A66416B212AC76F00DB6537 /* CYClass.m in Sources */,
 				8A664167212A7F0700DB6537 /* CYSelector.m in Sources */,
 				FECB21EEE38B52F3C49CC3D37A3D6A92 /* CYTools-dummy.m in Sources */,
 				5A896FF640F6EAC4DF42ED208A63A5D7 /* NSObject+CYToolsExtension.m in Sources */,
